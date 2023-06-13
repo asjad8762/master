@@ -1,0 +1,43 @@
+:root {
+  --primary: #fff;
+}
+
+.btnn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnn-primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btnn-outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 8px 20px;
+  transition: all 0.3 ease-out;
+  cursor: pointer;
+}
+
+.btnn-medium {
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.btnn-large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btnn-medium:hover,
+.btnn-large:hover {
+  background: var(--primary);
+  color: #242424;
+  transition: 250ms;
+}

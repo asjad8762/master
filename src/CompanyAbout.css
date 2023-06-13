@@ -1,0 +1,6 @@
+@media screen and (max-width: 960px) {
+  ._row_8 {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

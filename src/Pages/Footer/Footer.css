@@ -1,0 +1,144 @@
+.footer {
+  background: #795c61;
+  margin-top: 40px;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin: 25px 20px 0px 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #242424;
+  padding: 20px;
+}
+
+.title li h4 {
+  margin: 0;
+  font-size: 15px;
+  color: #242424;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.title li h4:hover {
+  font-size: 15px;
+  color: #fff;
+}
+
+.subscribe {
+  display: block;
+  position: relative;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.subscribe__input {
+  background-color: #fff;
+  border: medium none;
+  border-radius: 5px;
+  color: #333;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 60px;
+  letter-spacing: 0.4px;
+  margin: 0;
+  /* padding: 0 150px 0 20px; */
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.subscribe input[type="text"],
+textarea,
+select {
+  outline-color: #4a6d4f;
+}
+
+.subscribe__btn {
+  background-color: transparent;
+  border-radius: 0 25px 25px 0;
+  color: #4a6d4f;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+}
+
+li {
+  list-style: none;
+  color: #242424;
+}
+
+li:hover {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: unset;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.socialmedia {
+  margin-top: 20px;
+  margin-left: -14px;
+}
+
+.socialmedia ul li {
+  float: left;
+}
+
+.socialmedia ul li a {
+  text-align: center;
+  border: 0px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  margin: 0px 5px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+}
+
+.socialmedia ul li a:hover {
+  background: rgb(74, 109, 79);
+  border: 1px solid rgb(74, 109, 79);
+  color: #fff;
+  border: 0px;
+}
+
+.subFooter {
+  border-top: solid rgba(254, 254, 254, 0.5) 1px;
+  color: rgba(254, 254, 254, 0.5);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subFotter-text {
+  margin-top: 10px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .cont {
+    display: flex;
+    flex-direction: column;
+  }
+}

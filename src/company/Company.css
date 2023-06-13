@@ -1,0 +1,244 @@
+.company-page {
+  width: 100%;
+  background: #fff;
+}
+
+.container-company {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1072px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-right {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-right:hover {
+  background-color: #44444490;
+}
+
+.containerRight {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  border: 1px dotted black;
+  margin-top: "20px";
+}
+
+.containerpaper {
+  display: flex;
+  width: 100%;
+  max-width: 1072px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  height: 150px;
+}
+
+.buttonType {
+  background-color: #4caf50;
+  width: 20%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.list {
+  padding: 20px;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.contact_list {
+  position: relative;
+}
+.contact_list::before {
+  position: absolute;
+  content: "";
+  top: -16px;
+  left: -21px;
+  width: calc(100% + 42px);
+  border-top: 1px solid white;
+}
+
+.reviewContent {
+  margin-top: 20px;
+  padding: 24px;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.user-info {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dcdce6;
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  margin-right: 8px;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  background-color: #fcece3;
+  color: #1b1b21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.user-con {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.user-con div:last-of-type {
+  color: #6c6c85;
+}
+
+.pl0 {
+  padding-left: 0px !important;
+}
+
+.pr0 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+._header-wrap {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+._header {
+  width: 1166px;
+}
+
+.styles_verificationLabel__kukuk {
+  border: none;
+  background: none;
+  background-color: #e1f0ee;
+  margin-top: 8px;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.styles_verificationLabel__kukuk .styles_verificationIcon___X7KO {
+  display: flex;
+  align-items: center;
+  color: #125960;
+  font-size: 10px;
+  font-size: 0.625rem;
+  line-height: 12px;
+  line-height: 0.75rem;
+}
+
+.typography_fontstyle-normal__kHyN3 {
+  font-style: normal;
+}
+.typography_weight-heavy__E1LTj {
+  font-weight: 700;
+}
+
+.styles_verificationLabel__kukuk .styles_verificationIcon___X7KO svg {
+  margin-right: 5px;
+  fill: #068861;
+}
+
+.icon_icon__ECGRl,
+.icon_icon__ECGRl *,
+.icon_icon__ECGRl :after,
+.icon_icon__ECGRl :before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon_icon__ECGRl,
+.icon_icon__ECGRl *,
+.icon_icon__ECGRl :after,
+.icon_icon__ECGRl :before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.styles_verificationLabel__kukuk
+  .styles_verificationIcon___X7KO
+  svg
+  path:last-child {
+  fill: #fff;
+}
+
+.icon_icon__ECGRl,
+.icon_icon__ECGRl *,
+.icon_icon__ECGRl :after,
+.icon_icon__ECGRl :before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.col_88 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+._row_99 {
+  display: flex;
+}
+
+@media screen and (max-width: 960px) {
+  ._header,
+  .col_88,
+  ._row_99 {
+    flex-direction: column;
+  }
+  ._block {
+    display: block !important;
+  }
+  .col_row {
+    row-gap: 10px;
+  }
+  ._pr0 {
+    width: max-content;
+  }
+  ._pr1 {
+    width: 349px;
+  }
+  .pl0 {
+    max-width: 349px !important;
+  }
+  .xss {
+    max-width: 349px !important;
+  }
+}
